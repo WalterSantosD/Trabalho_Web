@@ -9,7 +9,8 @@ git status //verificar a situação de monitoramento dos arquivos do projeto
 
 Git add //adiciona os arquivos pode ser um pedaço <nome> ou tudo <.>
 
-git commit –m “<descrição>” // coloca na memoria o que deve ir para o GitHub
+git commit -m "commit message" “<descrição>” // coloca na memoria o que deve ir para o GitHub
+git commit -a // se tiver dando problema abre e fecha o vs code
 
 git remote add origin <endereço> //Monitora o gitHub que vamos mandar os arquivos
 git remote -v // verificar os diretórios apontados
